@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 1100px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.profile h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
